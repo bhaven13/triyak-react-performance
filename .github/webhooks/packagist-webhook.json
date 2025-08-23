@@ -1,0 +1,16 @@
+{
+  "name": "packagist-webhook",
+  "active": true,
+  "events": ["push"],
+  "config": {
+    "url": "https://packagist.org/api/update-package",
+    "content_type": "application/json",
+    "secret": "",
+    "insecure_ssl": "0"
+  },
+  "last_response": {
+    "code": 200,
+    "status": "active",
+    "message": "OK"
+  }
+}
