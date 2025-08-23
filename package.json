@@ -1,0 +1,86 @@
+{
+  "name": "triyak-react-performance",
+  "version": "1.0.0",
+  "description": "The world's most advanced React performance optimization toolkit - Built on 500+ enterprise website optimizations",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "test:performance": "jest --testPathPattern=performance",
+    "test:core-web-vitals": "jest --testPathPattern=core-web-vitals",
+    "analyze:bundle": "webpack-bundle-analyzer dist/stats.json",
+    "test:memory": "jest --testPathPattern=memory",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "performance",
+    "optimization",
+    "core-web-vitals",
+    "lcp",
+    "fid",
+    "cls",
+    "bundle-optimization",
+    "memory-optimization",
+    "ai-optimization",
+    "enterprise",
+    "triyak",
+    "digital-marketing",
+    "seo-optimization",
+    "web-performance"
+  ],
+  "author": {
+    "name": "Bhavendra Singh",
+    "email": "info@triyak.in",
+    "url": "https://www.triyak.in"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/triyak/triyak-react-performance.git"
+  },
+  "homepage": "https://www.triyak.in/docs/react-performance",
+  "bugs": {
+    "url": "https://github.com/triyak/triyak-react-performance/issues"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "@testing-library/react": "^14.0.0",
+    "webpack-bundle-analyzer": "^4.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  }
+}
