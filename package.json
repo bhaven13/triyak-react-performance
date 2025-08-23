@@ -1,6 +1,6 @@
 {
   "name": "triyak-react-performance",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The world's most advanced React performance optimization toolkit - Built on 500+ enterprise website optimizations",
   "main": "dist/index.js",
   "module": "dist/index.js",
