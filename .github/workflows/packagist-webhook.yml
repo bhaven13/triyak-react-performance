@@ -1,0 +1,30 @@
+name: Update Packagist
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'composer.json'
+      - 'php/**'
+      - '.github/workflows/packagist-webhook.yml'
+
+jobs:
+  update-packagist:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Update Packagist
+      run: |
+        # Trigger Packagist update via webhook
+        curl -X POST "https://packagist.org/api/update-package?username=triyak&apiToken=${{ secrets.PACKAGIST_TOKEN }}" \
+          -H "Content-Type: application/json" \
+          -d '{"repository":{"url":"https://github.com/bhaven13/triyak-react-performance"}}'
+      
+    - name: Alternative Packagist Update
+      run: |
+        # Alternative method: ping Packagist webhook
+        curl -X POST "https://packagist.org/api/update-package" \
+          -H "Content-Type: application/json" \
+          -d '{"repository":{"url":"https://github.com/bhaven13/triyak-react-performance"}}'
