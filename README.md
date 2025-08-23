@@ -637,9 +637,9 @@ function App() {
 
 ### **Contact Information**
 - **Website**: [https://www.triyak.in](https://www.triyak.in)
-- **Email**: info@triyak.in
+- **Email**: [info@triyak.in](mailto:info@triyak.in)
 - **Phone**: +91-8233330508
-- **LinkedIn**: [Triyak Digital Agency](https://www.linkedin.com/company/triyak-digital-agency)
+- **LinkedIn**: [Bhavendra Singh](https://www.linkedin.com/in/bhavendra-singh) | [Triyak Digital Agency](https://www.linkedin.com/company/triyak-digital-agency)
 
 ## 📄 License
 
@@ -659,5 +659,5 @@ MIT License - see [LICENSE](./LICENSE) file for details.
 *Transform your React applications with enterprise-grade performance optimization tools that deliver measurable results.*
 
 **Get Started Today**: `npm install triyak-react-performance`
-**Documentation**: [https://www.triyak.in/docs](https://www.triyak.in/docs)
+**Documentation**: [https://www.triyak.in/docs/react-performance](https://www.triyak.in/docs/react-performance)
 **Support**: [info@triyak.in](mailto:info@triyak.in)

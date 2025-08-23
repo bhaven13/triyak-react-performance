@@ -51,7 +51,7 @@
   },
   "homepage": "https://www.triyak.in/docs/react-performance",
   "bugs": {
-    "url": "https://github.com/triyak/triyak-react-performance/issues"
+    "url": "https://github.com/bhaven13/triyak-react-performance/issues"
   },
   "dependencies": {
     "react": ">=16.8.0",

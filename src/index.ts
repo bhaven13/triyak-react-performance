@@ -16,7 +16,7 @@ export const VERSION = '1.0.0';
 export const PACKAGE_NAME = 'triyak-react-performance';
 export const COMPANY = 'Triyak Digital Agency';
 export const WEBSITE = 'https://www.triyak.in';
-export const SUPPORT_EMAIL = 'support@triyak.in';
+export const SUPPORT_EMAIL = 'info@triyak.in';
 
 // Performance optimization constants
 export const PERFORMANCE_THRESHOLDS = {
