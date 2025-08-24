@@ -22,7 +22,7 @@ setup(
     version="1.0.0",
     author="Bhavendra Singh",
     author_email="info@triyak.in",
-    description="The world's most advanced React performance optimization toolkit - Built on 500+ enterprise website optimizations",
+    description="Advanced React performance optimization toolkit - Built with modern React best practices",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
     url="https://www.triyak.in/docs/react-performance",
