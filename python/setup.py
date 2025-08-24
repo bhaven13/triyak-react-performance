@@ -19,7 +19,7 @@ def read_requirements():
 
 setup(
     name="triyak-react-performance",
-    version="1.0.0",
+    version="1.0.4",
     author="Bhavendra Singh",
     author_email="info@triyak.in",
     description="Advanced React performance optimization toolkit - Built with modern React best practices",
